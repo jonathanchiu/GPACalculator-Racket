@@ -62,22 +62,24 @@ and the number of credits you got for that course.
 
 |#
 
+;; Example Grades
+
 ;; Fall 2012 Grades
-(define fall12 (list (make-grade A- 4)   ;; East Asian Studies
-                     (make-grade A  1)   ;; Overview 1
-                     (make-grade B- 4)   ;; Discrete
-                     (make-grade B  4)   ;; Fundies I
-                     (make-grade B  1)   ;; Fundies Lab
-                     (make-grade A- 4))) ;; English
+(define fall12 (list (make-grade A- 4)   ;; Exploring 16th Century Bathrooms
+                     (make-grade A  1)   ;; Overview 9000
+                     (make-grade B- 4)   ;; Alaskan Ice Fishing
+                     (make-grade B  4)   ;; Theory of Ants
+                     (make-grade B  1)   ;; Theory of Ants Lab
+                     (make-grade A- 4))) ;; Professional Writing
                                          ;; __________________________________
                                          ;; Fall 2012 GPA: 3.278
 ;; Spring 2013 Grades
-(define spring13 (list (make-grade B+ 4)  ;; Logic and Computation
-                       (make-grade B+ 4)  ;; Fundies II
-                       (make-grade B+ 1)  ;; Fundies II Lab
-                       (make-grade B+ 1)  ;; Logic and Computation Lab
-                       (make-grade A- 4)  ;; Calculus I For Sci/Eng
-                       (make-grade A 4))) ;; Backgrounds of Chinese Culture
+(define spring13 (list (make-grade B+ 4)  ;; Cup Theory
+                       (make-grade B+ 4)  ;; Evolution of Donuts
+                       (make-grade B+ 1)  ;; Evolution of Donuts Lab
+                       (make-grade B+ 1)  ;; Fundamentals of Mouth Breathing
+                       (make-grade A- 4)  ;; 12th Century Cups
+                       (make-grade A 4))) ;; Elephant Culture
                                           ;; __________________________________
                                           ;; Spring 2013 GPA: 3.555
 
@@ -103,6 +105,7 @@ and the number of credits you got for that course.
                                  (eq? g C) 
                                  (eq? g C-) 
                                  (eq? g D+)
+                                 (eq? g D)
                                  (eq? g D-)
                                  (eq? g F)) qpts]))]))
 
