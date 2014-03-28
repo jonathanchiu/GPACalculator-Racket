@@ -9,10 +9,12 @@ Format
 A semester's worth of grades is made from creating a grade structure, which consists of two fields: a letter grade and the number of corresponding credits of that class. This structure should then be placed inside a list.
 
 ```racket
-(define fall12 (list (make-grade A- 4)   ;; Quantum Physics 3501
-                     (make-grade A  1)   ;; Quantum Physics Lab 3501
-                     (make-grade B- 4)   ;; Physics
-                     (make-grade B  4)   ;; Theory of Computation
-                     (make-grade B  1)   ;; Physics Lab
-                     (make-grade A- 4))) ;; East Asian Studies
+(define spring13 (list (make-grade B+ 4)  ;; Cup Theory
+                       (make-grade B+ 4)  ;; Evolution of Donuts
+                       (make-grade B+ 1)  ;; Evolution of Donuts Lab
+                       (make-grade B+ 1)  ;; Fundamentals of Potato Peeling
+                       (make-grade A- 4)  ;; 12th Century Cups
+                       (make-grade A 4))) ;; Elephant Culture
+                                          ;; __________________________________
+                                          ;; Spring 2013 GPA: 3.555
 ```
